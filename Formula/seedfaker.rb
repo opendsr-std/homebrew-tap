@@ -5,25 +5,25 @@ class Seedfaker < Formula
   desc "Deterministic synthetic data generator"
   homepage "https://github.com/opendsr-std/seedfaker"
   license "MIT"
-  version "0.3.0-alpha.2"
+  version "0.4.0-alpha.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.3.0-alpha.2/seedfaker-darwin-arm64.tar.gz"
-      sha256 "2605c990c43412416023d32cfbb421c2bcbcf1a42a643606cf36cfc442406e38"
+      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.4.0-alpha.1/seedfaker-darwin-arm64.tar.gz"
+      sha256 "a5b9d3d40831a5588d16ef1e87cfecaf9badc0f94e652a88bdf2bbf5140d70df"
     else
-      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.3.0-alpha.2/seedfaker-darwin-x64.tar.gz"
-      sha256 "f66043e1f1f38f9d84e8915c82a0848894fb67fe38594ce5973287b2df4bcf64"
+      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.4.0-alpha.1/seedfaker-darwin-x64.tar.gz"
+      sha256 "62a4b9c336b20e4b875296fc187d71f6367f1ec324be4d309725bc0ad71bf1a3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.3.0-alpha.2/seedfaker-linux-arm64.tar.gz"
-      sha256 "21cb7170e0dd6377c190b9eab641202229e7d159f5322517fc01c889d24cdbfd"
+      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.4.0-alpha.1/seedfaker-linux-arm64.tar.gz"
+      sha256 "daa49c8131e00d8f54c8b12bbdf4053a97a82b33f53b1327b8108868bd106382"
     else
-      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.3.0-alpha.2/seedfaker-linux-x64.tar.gz"
-      sha256 "0a7fab92b123e95c08934d6e09fd08092692bdaf97cf4975a7785ee40ac2a36e"
+      url "https://github.com/opendsr-std/seedfaker/releases/download/v0.4.0-alpha.1/seedfaker-linux-x64.tar.gz"
+      sha256 "b2ddeb7cb03afed3823bb0fd561077affd1800cc776e8465668778d3e78abc06"
     end
   end
 
